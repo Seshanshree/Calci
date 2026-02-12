@@ -1,0 +1,109 @@
+*{
+  margin: 0; padding: 0; box-sizing: border-box;
+}
+ body{
+  background-color: rgba(131, 4, 4, 0.599);
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  display: flex;
+ }
+h1{
+  color: rgb(236, 229, 182);
+  margin: 15px;
+  text-shadow: bisque 2px 1px 5px;
+  padding: 10px 10px;
+  border: 3px solid orangered;
+  border-radius: 18px;
+  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+  text-align: center;
+  font-size: 34px;
+  background-size: cover;
+  background-position: center;
+  background-color: rgba(220, 20, 60, 0.262);
+}
+ .container{
+  border: 6px double rgb(245, 75, 75);
+  border-radius: 15px;
+  width: 300px;
+  height: auto;
+  padding: 10px;
+  background-color: rgba(54, 16, 16, 0.974);
+ }
+input{
+   padding: 10px; 
+   margin-bottom: 20px; 
+   text-align: center;
+
+}
+::placeholder{
+  text-align: right;
+  padding: 15px;
+  font-size: 15px;
+  color: blanchedalmond;
+}
+#result{
+    width: 100%;
+    border: 2.5px solid orangered;
+    border-radius: 25px;
+    background-color: rgba(222, 148, 135, 0.167);
+}
+.main{
+  width: 100%; 
+  position: relative;
+  text-align: center;
+  border: 3px solid rgb(235, 81, 81);
+  border-radius: 10px;
+
+}
+.q2{
+  margin-top: 15px;
+}
+.q2 input{
+  width: 50px;
+  margin-right: 5px;
+  background-color: rgba(222, 148, 135, 0.167);
+  border: 3px solid  rgb(235, 81, 81);
+  border-radius: 50px;
+  color: wheat;
+  text-align: center;
+  font-size: 15px;
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+.q3 input{
+  width: 50px;
+  margin-right: 5px;
+  background-color: rgba(222, 148, 135, 0.167);
+  border: 3px solid  rgb(235, 81, 81);
+  border-radius: 50px;
+  color: wheat;
+  text-align: center;
+  font-size: 15px;
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+.q4 input{
+  width: 50px;
+  margin-right: 5px;
+  background-color: rgba(222, 148, 135, 0.167);
+  border: 3px solid  rgb(235, 81, 81);
+  border-radius: 50px;
+  color: wheat;
+  text-align: center;
+  font-size: 15px;
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+.q5 input{
+  width: 50px;
+  margin-right: 5px;
+  background-color: rgba(222, 148, 135, 0.167);
+  border: 3px solid  rgb(235, 81, 81);
+  border-radius: 50px;
+  color: wheat;
+  text-align: center;
+  font-size: 15px;
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+.b4:hover{
+  transform: scale(1.04);
+  font-size: 15.8px;
+}

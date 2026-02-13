@@ -15,14 +15,15 @@ h1{
   border: 3px solid orangered;
   border-radius: 18px;
   text-align: center;
-  font-size: 32px;
-
-  /* Better glow effect */
+  font-size: 31px;
   text-shadow:
       0 0 6px rgba(255,200,120,0.7),
       0 0 12px rgba(255,140,0,0.6);
 }
-
+input{
+  color: blanchedalmond;
+  text-align: center;
+}
  .container{
   border: 6px double rgb(245, 75, 75);
   border-radius: 15px;
@@ -39,14 +40,15 @@ input{
 }
 ::placeholder{
   text-align: right;
-  padding: 15px;
+  /* padding: 15px; */
   font-size: 15px;
   color: blanchedalmond;
 }
 #result{
+    text-align: right;
     width: 90%;
-    display: bolck;
-    margin: 10px auto;
+    display: block;
+    margin: 20px auto;
     border: 2.5px solid orangered;
     border-radius: 25px;
     background-color: rgba(222, 148, 135, 0.167);
@@ -110,4 +112,6 @@ input{
   transform: scale(1.04);
   font-size: 15.8px;
 }
-
+#equals{
+  width: 109px;
+}
